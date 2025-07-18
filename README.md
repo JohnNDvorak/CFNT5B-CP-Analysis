@@ -1,4 +1,7 @@
-# CFNT5B-CP: Conservative Framework for Non-Trivial 5-Band Composite Perturbation
+# CFNT5B-CP: Operator Framework 
+
+## Description
+The CFNT5B-CP (Core-Fibonacci-Number Theoretic-5 Banded-Complex Perturbations) operator framework achieves what previous attempts could not: simultaneous spectral accuracy and authentic random matrix statistics.  All code and supporting data for each CFNT5B-CP experiment will be provided in this respository.   
 
 ## Repository Under Construction
 
