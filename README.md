@@ -1,48 +1,41 @@
-# CFNT5B-CP: Operator Framework 
+# CFNT5B-CP: Conservative Framework for Non-Trivial 5-Band Composite Perturbation
 
-## Description
-The CFNT5B-CP (Core-Fibonacci-Number Theoretic-5 Banded-Complex Perturbations) operator framework achieves what previous attempts could not: simultaneous spectral accuracy and authentic random matrix statistics.  All code and supporting data for each CFNT5B-CP experiment will be provided in this respository.  The complete implementation, including the Jupyter notebook, all data files, and comprehensive documentation will be available here.
+## Overview
 
-\begin{center}
-\texttt{https://github.com/JohnNDvorak/CFNT5B-CP-Analysis}
-\end{center}
+The CFNT5B-CP (Core-Fibonacci-Number Theoretic-5 Banded-Complex Perturbations) operator framework achieves what previous attempts could not: simultaneous spectral accuracy and authentic random matrix statistics. This repository contains the complete implementation, data, and documentation for reproducing all results from our paper.
 
-\noindent following publication. The repository will include version-controlled releases corresponding to the results presented in this paper, ensuring complete reproducibility of all computational results.   
+**Paper**: [211515_July_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf](211515_July_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf) *(Draft Version - July 2025)*
 
-## Repository Under Construction
+## Repository Contents
 
-This repository will contain the implementation and data supporting our research on eigenvalue-zeta zero correspondence using the Hilbert-Pólya operator framework.
+### 📁 Code
+- [`16JulyPublicationRefactor.ipynb`](16JulyPublicationRefactor.ipynb) - Complete computational framework with 14 analysis cells:
+  - Cell A: Baseline matrix construction demonstration
+  - Cell B: Perturbation framework (6+ hour runtime - pre-computed data provided)
+  - Cell #1: **Conservative hybrid analysis (RUN THIS FIRST)**
+  - Cells #2-12: Analysis modules generating all figures and results
 
-### Planned Release: July 2025
+### 📊 Data Files
+- **Zeta Zeros**: 
+  - `combined_zeros_1.txt` (10M zeros available, first 30K used in experiments)
+  
+- **Unperturbed Eigenvalues**: 
+  - `eigenvals_N5000_comprehensive_20250609_150741.txt` (5K scale)
+  - `eigenvals_N10000_comprehensive_20250609_151458.txt` (10K scale)
+  - `eigenvals_N15000_comprehensive_20250609_153652.txt` (15K scale)
+  - `eigenvals_N20000_comprehensive_20250609_162546.txt` (20K scale)
+  - `eigenvals_N25000_N25K_comprehensive_20250609_185007.txt` (25K scale)
+  
+- **Perturbed Eigenvalues**:
+  - `perturbed_eigenvals_5K_strength3.2.txt` (5K scale, strength 3.2)
+  - `perturbed_eigenvals_10K_strength5.4.txt` (10K scale, strength 5.4)
+  - `perturbed_eigenvals_15K_strength9.6.txt` (15K scale, strength 9.6)
+  - `perturbed_eigenvals_20K_strength12.8.txt` (20K scale, strength 12.8)
+  - `perturbed_eigenvals_25K_strength14.0.txt` (25K scale, strength 14.0)
 
-Upon publication, this repository will include:
+## Quick Start
 
-#### 📁 Code
-- `CFNT5B_Complete_Analysis.ipynb` - Full computational framework
-- 14 analysis cells including:
-  - Matrix construction demonstrations
-  - Conservative hybrid analysis
-  - Statistical validation suite
-  - Visualization generation
-
-#### 📊 Data
-- Riemann zeta zeros (10M available, 30,000 required for experiments)
-- Unperturbed eigenvalues (5K, 10K, 15K, 20K, 25K)
-- Perturbed eigenvalues (5K, 10K, 15K, 20K, 25K)
-  - Each with documented perturbation strengths
-  - Pre-computed to avoid 6+ hour generation time
-- All generated figures
-
-#### 📚 Documentation
-- Complete usage instructions
-- Theoretical background
-- Reproducibility guide
-
-### Pre-Publication Access
-For pre-publication access for review purposes, please contact [your email or "authors"].
-
-### Citation
-Details will be provided upon publication.
-
----
-*This repository is being prepared in compliance with open science practices and will ensure full reproducibility of our computational results.*
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/JohnNDvorak/CFNT5B-CP-Analysis.git
+   cd CFNT5B-CP-Analysis
