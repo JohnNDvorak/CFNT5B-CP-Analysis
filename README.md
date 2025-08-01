@@ -5,7 +5,7 @@
 The CFNT5B-CP (Core-Fibonacci-Number Theoretic-5 Banded-Complex Perturbations) operator framework achieves what previous attempts could not: simultaneous spectral accuracy and authentic random matrix statistics. This repository contains the complete implementation, data, and documentation for reproducing all results from our paper.
 
 **Paper**: [010930
-010930August_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf](010930August_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf) *(Draft Version - July 2025)*
+010930August_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf](010930August_The_CFNT5B_CP_Operator_Empirical_Investigation.pdf) *(Draft Version - August 2025)*
 
 ## Repository Contents
 
